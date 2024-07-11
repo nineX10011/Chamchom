@@ -3,7 +3,7 @@
 
 Chamchom is a network sniffer developed by NineX for CodeAlpha. It captures and displays network packets with detailed information about the protocols and endpoints involved. Chamchom is built using Python and Scapy, with support for various protocols and a colorful, user-friendly output.
 
-![Chamchom Network Sniffer](screenshots/screenshot.png)
+![Chamchom Network Sniffer](screenshots/chamchom_screenshot.png)
 
 ## Features
 
