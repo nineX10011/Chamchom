@@ -12,11 +12,14 @@ init()
 # Logo definition
 logo = f"""
 {Fore.RED}
-  ____  _    _    __  __  ___  ___
- / ___|| |  | |  |  \/  ||_ _||_ _|
- \___ \| |  | |  | |\/| | | |  | | 
-  ___) | |__| |  | |  | | | |  | | 
- |____/ \____/   |_|  |_||___||___| {Style.RESET_ALL}{Fore.CYAN}Network Sniffer By NineX for CodeAlpha {Style.RESET_ALL}
+
+
+ ██████ ██   ██  █████  ███    ███  ██████ ██   ██  ██████  ███    ███ 
+██      ██   ██ ██   ██ ████  ████ ██      ██   ██ ██    ██ ████  ████ 
+██      ███████ ███████ ██ ████ ██ ██      ███████ ██    ██ ██ ████ ██ 
+██      ██   ██ ██   ██ ██  ██  ██ ██      ██   ██ ██    ██ ██  ██  ██ 
+ ██████ ██   ██ ██   ██ ██      ██  ██████ ██   ██  ██████  ██      ██ 
+                                                                       {Style.RESET_ALL}{Fore.CYAN}Network Sniffer By NineX for CodeAlpha {Style.RESET_ALL}
 """
 
 # Print the logo
