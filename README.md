@@ -37,7 +37,7 @@ pip install -r requirements.txt
 To run Chamchom, use the following command:
 
 ```bash
-python sniffer.py -i <interface> [-c <count>] [-f <filter>] [-w <output_file>]
+sudo python3 sniffer.py -i <interface> [-c <count>] [-f <filter>] [-w <output_file>]
 ```
 
 ### Options
