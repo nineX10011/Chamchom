@@ -12,6 +12,13 @@ Chamchom is a network sniffer developed by NineX for CodeAlpha. It captures and 
 - Supports packet filtering by protocol
 - Option to save captured packets to a PCAP file
 
+## Installation
+**Clone the repository**:
+   ```bash
+   git clone https://github.com/nineX10011/Chamchom.git
+   cd Chamchom
+```
+
 ## Requirements
 
 - Python 3.x
