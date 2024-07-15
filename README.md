@@ -37,7 +37,7 @@ pip install -r requirements.txt
 To run Chamchom, use the following command:
 
 ```bash
-sudo python3 sniffer.py -i <interface> [-c <count>] [-f <filter>] [-w <output_file>]
+sudo python3 chamchom.py -i <interface> [-c <count>] [-f <filter>] [-w <output_file>]
 ```
 
 ### Options
@@ -52,24 +52,24 @@ sudo python3 sniffer.py -i <interface> [-c <count>] [-f <filter>] [-w <output_fi
 Capture packets on interface `eth0`:
 
 ```bash
-python sniffer.py -i eth0
+python3 chamchom.py -i eth0
 ```
 
 Capture 100 TCP packets on interface `eth0`:
 
 ```bash
-python sniffer.py -i eth0 -c 100 -f tcp
+python3 chamchom.py -i eth0 -c 100 -f tcp
 ```
 
 Capture packets on interface `eth0` and save them to `capture.pcap`:
 
 ```bash
-python sniffer.py -i eth0 -w capture.pcap
+python3 chamchom.py -i eth0 -w capture.pcap
 ```
 
 ## Code Overview
 
-### `sniffer.py`
+### `chamchom.py`
 
 The main script that handles packet capturing and displays the packet information in a colorful, tabular format.
 
