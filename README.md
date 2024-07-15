@@ -52,19 +52,19 @@ sudo python3 chamchom.py -i <interface> [-c <count>] [-f <filter>] [-w <output_f
 Capture packets on interface `eth0`:
 
 ```bash
-python3 chamchom.py -i eth0
+sudo python3 chamchom.py -i eth0
 ```
 
 Capture 100 TCP packets on interface `eth0`:
 
 ```bash
-python3 chamchom.py -i eth0 -c 100 -f tcp
+sudo python3 chamchom.py -i eth0 -c 100 -f tcp
 ```
 
 Capture packets on interface `eth0` and save them to `capture.pcap`:
 
 ```bash
-python3 chamchom.py -i eth0 -w capture.pcap
+sudo python3 chamchom.py -i eth0 -w capture.pcap
 ```
 
 ## Code Overview
